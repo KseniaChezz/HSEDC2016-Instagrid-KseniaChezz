@@ -1,0 +1,41 @@
+.menubar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 20px;
+  background-color: white;
+}
+
+.about,
+.contacts,
+.name,
+footer a {
+  font-size: 14px;
+  line-height: 50px;
+  color: rgba(0,0,0,.2);
+  transition: all .1s ease;
+}
+
+.name {
+  font-size: 20px;
+  color: #cc9999;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 23px;
+  padding: 23px;
+  background-color: white;
+}
+
+.instagram {
+  display: block;
+  width: 13px;
+  height: 13px;
+  margin-right: 7px;
+  margin-top: -4px;
+  background-image: url(../images/instagram.svg);
+}

@@ -5,7 +5,6 @@
   overflow: scroll;
   overflow-y: hidden;
   height: 100vh;
-  min-width: 996px;
 }
 
 .photo {
@@ -29,4 +28,41 @@ section.small {
 section.small img {
   width: 50vh;
   height: 50vh;
+}
+
+.gallery2 {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  overflow: scroll;
+  overflow-y: hidden;
+  height: calc(100vh - 73px);
+}
+
+.large img{
+  display: flex;
+  margin: 0;
+  width: 100vh-;
+  height: 100vh;
+}
+
+section.small {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+  height: 100vh;
+}
+
+section.small img {
+  width: 50vh;
+  height: 50vh;
+}
+
+.gallery3 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: scroll;
+  overflow-y: hidden;
+  width: ;
 }
