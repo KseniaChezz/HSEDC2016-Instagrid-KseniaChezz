@@ -1,0 +1,26 @@
+.gallery {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  min-width: 996px;
+}
+
+.large img{
+  display: flex;
+  margin: 0;
+  width: 100vh;
+  height: 100vh;
+}
+
+section.small {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+  height: 100vh;
+}
+
+section.small img {
+  width: 50vh;
+  height: 50vh;
+}
