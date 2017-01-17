@@ -1,9 +1,15 @@
 .gallery {
-  display: inline-flex;
+  display: flex;
+  justify-content: flex-start;
   position: relative;
-  flex-direction: row;
-  width: 100%;
+  overflow: scroll;
+  overflow-y: hidden;
+  height: 100vh;
   min-width: 996px;
+}
+
+.photo {
+  display: inline-flex;
 }
 
 .large img{
