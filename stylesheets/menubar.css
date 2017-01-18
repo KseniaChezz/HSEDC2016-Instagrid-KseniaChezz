@@ -1,10 +1,21 @@
+.menu {
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  margin-top: -50px;
+}
+
 .menubar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 50px;
   padding: 20px;
-  background-color: white;
+  background-color: black;
 }
 
 .about,
@@ -13,22 +24,24 @@
 footer a {
   font-size: 14px;
   line-height: 50px;
-  color: rgba(0,0,0,.2);
+  color: rgba(255,255,255,.5);
   transition: all .1s ease;
 }
 
 .name {
   font-size: 20px;
+  font-weight: bold;
   color: #cc9999;
 }
 
 footer {
   display: flex;
+  margin-bottom: 0;
   justify-content: center;
   align-items: center;
   height: 23px;
   padding: 23px;
-  background-color: white;
+  background-color: black;
 }
 
 .instagram {

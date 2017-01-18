@@ -1,4 +1,3 @@
-
 .next,
 .prev {
   position: fixed;
@@ -32,8 +31,6 @@
   border-bottom: 2px solid white;
   width: 10px;
   height: 10px;
-  transform: rotate(-45deg);
-  margin: 16px 0 0 13px;
 }
 
 .arrow-next {

@@ -1,3 +1,5 @@
+/*gallery 1*/
+
 .gallery {
   display: flex;
   justify-content: flex-start;
@@ -30,33 +32,38 @@ section.small img {
   height: 50vh;
 }
 
+/*gallery 2*/
+
 .gallery2 {
   display: flex;
   justify-content: flex-start;
   position: relative;
   overflow: scroll;
   overflow-y: hidden;
-  height: calc(100vh - 73px);
+  height: calc(100vh - 98px);
+  margin-top: 50px;
 }
 
-/*.large img{
+.large2 img{
   display: flex;
   margin: 0;
-  width: 100vh-;
-  height: 100vh;
+  width: calc(100vh - 98px);
+  height: calc(100vh - 98px);
 }
 
-section.small {
+section.small2 {
   display: flex;
   flex-direction: column;
-  width: 50vh;
-  height: 100vh;
+  width: calc(50vh - 49px);
+  height: calc(100vh - 98px);
 }
 
-section.small img {
-  width: 50vh;
-  height: 50vh;
-}*/
+section.small2 img {
+  width: calc(50vh - 49px);
+  height: calc(50vh - 49px);
+}
+
+/*gallery 3*/
 
 .gallery3 {
   display: flex;
@@ -64,5 +71,7 @@ section.small img {
   position: relative;
   overflow: scroll;
   overflow-y: hidden;
-  width: ;
+  width: calc(100vh - 200px);
+  height: calc(100vh - 200px);
+  margin-top: 50px;
 }
