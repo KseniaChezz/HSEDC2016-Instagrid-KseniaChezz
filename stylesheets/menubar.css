@@ -1,21 +1,15 @@
-.menu {
-  display: flex;
-  height: 100vh;
-  justify-content: space-between;
-  flex-direction: column;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  margin-top: -50px;
-}
-
 .menubar {
   display: flex;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
+  width: 100vw;
   height: 50px;
   padding: 20px;
+  top: 0;
   background-color: black;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  z-index: 1;
 }
 
 .about,
@@ -36,11 +30,13 @@ footer a {
 
 footer {
   display: flex;
-  margin-bottom: 0;
+  position: fixed;
   justify-content: center;
   align-items: center;
+  width: 100vw;
   height: 23px;
   padding: 23px;
+  bottom: 0;
   background-color: black;
 }
 
