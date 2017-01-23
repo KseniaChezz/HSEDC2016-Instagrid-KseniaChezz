@@ -8,8 +8,6 @@ a {
 }
 
 body {
-  width: 100%;
-  height: 100vh;
   min-width: 996px;
   background-color: #cccccc;
   font-family: 'PT Sans', sans-serif;

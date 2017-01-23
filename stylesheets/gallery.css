@@ -76,6 +76,7 @@ section.small2 img {
   height: 70vh;
   margin: auto;
   top: 15vh;
+  box-shadow: 0 4px 22px 0 rgba(0, 0, 0, 0.4);
 }
 
 .large3 img{
