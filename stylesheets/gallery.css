@@ -7,6 +7,7 @@
   overflow: scroll;
   overflow-y: hidden;
   height: 100vh;
+  width: 100vw;
 }
 
 .photo {
@@ -72,7 +73,7 @@ section.small2 img {
   position: relative;
   overflow: scroll;
   overflow-y: hidden;
-  width: 120vh;
+  width: 80vw;
   height: 70vh;
   margin: auto;
   top: 15vh;
