@@ -72,7 +72,27 @@ section.small2 img {
   position: relative;
   overflow: scroll;
   overflow-y: hidden;
-  width: calc(100vh - 200px);
-  height: calc(100vh - 200px);
-  top: 50px;
+  width: 120vh;
+  height: 70vh;
+  margin: auto;
+  top: 15vh;
+}
+
+.large3 img{
+  display: flex;
+  margin: 0;
+  width: 70vh;
+  height: 70vh;
+}
+
+section.small3 {
+  display: flex;
+  flex-direction: column;
+  width: 35vh;
+  height: 70vh;
+}
+
+section.small3 img {
+  width: 35vh;
+  height: 35vh;
 }
